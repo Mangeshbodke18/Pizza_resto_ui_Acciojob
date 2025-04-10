@@ -250,11 +250,12 @@ h2 {
 }
 
 #image {
-  background-image: url("https://i.pinimg.com/736x/62/df/ef/62dfefc5b636ec353ed1efb026491e52.jpg");
-  background-size: cover;
-  background-position: center;
+  margin: 10px;
+}
+
+iframe{
   height: 50vh;
-  width: 100vw;
+  width: 35vw;
   margin: 30px;
 }
 
@@ -388,11 +389,15 @@ h2 {
   }
 
   #image {
-    height: 50vh;
-    width: 50vw;
+  
     margin: 20%;
-
     margin-bottom: 0%;
+  }
+
+  iframe{
+    height: 40vh;
+    width: 40vw;
+    margin: 15px;
   }
 
   /*   footer   */
